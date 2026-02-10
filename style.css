@@ -3,26 +3,28 @@
     padding:0;
     box-sizing: border-box;
 }
-#container{
+main{
     height: 100vh;
     /* padding-top: 164px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    font-family: "Sora", sans-serif;
 }
 #card{
     padding: 16px 16px 20px;
     width: 368px;
     border-radius: 8px; 
     box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
-    height: 380px;
+    height: 388px;
     display: flex;
     flex-direction: column;
 }
 img{
     display: block;
     border-radius: 8px;
+    width: 336px;
+    height: 156px;
 }
 
 ul{
@@ -40,7 +42,6 @@ ul li {
   display: flex;
   align-items: center;
 
-  font-family: "Sora", sans-serif;
   font-size: 10px;
   font-weight: 600;
   line-height: 1;
@@ -48,7 +49,6 @@ ul li {
 
 
 h1{
-    font-family: "Sora", sans-serif;
     font-size: 18px;
     color: #394150;
     
@@ -56,10 +56,11 @@ h1{
 
 p{
     margin-top: 6px;
-    font-family: "Sora", sans-serif;
     font-size: 14px;
     margin-bottom: 20px;
     color: #394150;
+    font-weight: 300;
+    line-height: 1.4;
 }
 hr{
     border: none;
@@ -71,7 +72,6 @@ hr{
 
 address{
     margin-top: auto;
-    font-family: "Sora", sans-serif;
     font-size: 12px;
     font-style: normal;
     color: #394150;
